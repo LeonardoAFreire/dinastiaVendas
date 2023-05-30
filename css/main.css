@@ -49,6 +49,10 @@
     place-content: center;
     place-items: center;
   }
+
+  .main-conteudo h1 {
+    text-align: center;
+  }
   .foto-main img {
     max-height: 600px;
     margin: 0 auto;
