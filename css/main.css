@@ -20,12 +20,12 @@
 
 .foto-main img {
   display: block;
+  filter: drop-shadow(0 -100px 160px #fff);
 }
 
 .main-conteudo h1 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: bold;
 }
 .main-conteudo p {
   margin-bottom: 20px;
