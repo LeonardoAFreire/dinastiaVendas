@@ -67,5 +67,6 @@
 @media (max-width: 500px) {
   .foto-main img {
     max-height: 350px;
+    filter: drop-shadow(0 -20px 160px #fff);
   }
 }
