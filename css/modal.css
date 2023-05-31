@@ -63,7 +63,7 @@
   background: var(--cor-0);
   border: 1px solid rgba(0, 0, 0, 0.5);
   max-width: calc(100vw - 60px);
-  max-height: calc(100vh - 60px);
+  max-height: calc(100vh - 20px);
   border-radius: 10px;
   position: relative;
   overflow-y: auto;
@@ -72,7 +72,7 @@
 @media (max-width: 500px) {
   .modal {
     max-width: calc(100vw - 20px);
-    max-height: calc(100vh);
+    max-height: calc(100vh - 120px);
   }
 }
 .modal::-webkit-scrollbar {
