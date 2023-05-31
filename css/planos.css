@@ -1,0 +1,80 @@
+.bg-planos {
+  background: var(--cor-0);
+  display: flex;
+  flex-direction: column;
+}
+
+.planos {
+  padding: 40px 20px 40px 20px;
+}
+
+.planos h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.span-planos {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-planos {
+  background: #e0eafa;
+  padding: 60px 70px 60px 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plano-modal {
+  margin-top: 20px;
+}
+
+.plano-modal h3 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.lista-planos li + li {
+  margin-top: 6px;
+}
+
+.lista-planos li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lista-planos img {
+  width: 14px;
+  height: 14px;
+}
+
+.preco {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.btn-assinatura {
+  place-self: center;
+}
+
+@media (max-width: 500px) {
+  .container-planos {
+    padding: 40px;
+  }
+  .texto-planos {
+    text-align: center;
+  }
+
+  .span-planos {
+    margin-bottom: 20px;
+  }
+}

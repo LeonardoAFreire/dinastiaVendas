@@ -3,6 +3,7 @@
   --cor-1: #0053d4;
   --cor-2: #f8f9fa;
   --cor-3: #141414;
+  --cor-4: #e0eafa;
   --cor-p1: #d5ac61;
   --cor-botao: #243b55;
   --cor-gradient-p1: linear-gradient(to right, #d5ac61, #fcda9b, #ffeac4);
@@ -21,7 +22,7 @@
 }
 
 .cor-3 {
-  color: var(--cor-1);
+  color: var(--cor-3);
 }
 .cor-p1 {
   color: var(--cor-p1);
