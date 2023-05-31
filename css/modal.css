@@ -65,6 +65,7 @@
   max-width: calc(100vw - 60px);
   max-height: calc(100vh - 60px);
   border-radius: 10px;
+  position: relative;
   overflow-y: auto;
 }
 
