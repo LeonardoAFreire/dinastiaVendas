@@ -13,6 +13,7 @@ function showModal(event) {
   const modalAtivo = document.querySelector(classeModal);
 
   document.documentElement.classList.add('no-scroll');
+  document.body.classList.add('no-scroll');
 
   divModal.classList.add('ativo');
   modalAtivo.classList.add('ativo');
@@ -27,6 +28,8 @@ function fecharModal() {
   }
 
   document.documentElement.classList.remove('no-scroll');
+  document.body.classList.remove('no-scroll');
+
   divModal.classList.remove('ativo');
 }
 
