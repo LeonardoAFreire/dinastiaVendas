@@ -83,7 +83,7 @@
 
 .modal::-webkit-scrollbar-track {
   background-color: var(--cor-2); /* Cor da área de fundo */
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .header-modal {
