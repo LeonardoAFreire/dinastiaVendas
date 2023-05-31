@@ -66,6 +66,12 @@
   border-radius: 10px;
   overflow-y: auto;
 }
+
+@media (max-width: 500px) {
+  .modal {
+    max-width: calc(100vw - 20px);
+  }
+}
 .modal::-webkit-scrollbar {
   width: 8px;
 }
@@ -77,6 +83,7 @@
 
 .modal::-webkit-scrollbar-track {
   background-color: var(--cor-2); /* Cor da área de fundo */
+  border-radius: 4px;
 }
 
 .header-modal {
