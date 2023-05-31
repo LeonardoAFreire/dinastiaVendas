@@ -350,39 +350,7 @@
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      centerSlide: true,
-      grabCursor: true,
-      autoplay: {
-        delay: 0
-      },
-      speed: 3000,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-      },
-      breakpoints: {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 10
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 2,
-          spaceBetween: 20
-        },
-        // when window width is >= 640px
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 20
-        }
-      }
-    });
-  </script>
+
 
   <div class="modal-container">
     <div class="diariaTokio modal cor-3">
@@ -490,7 +458,7 @@
   </div>
 
 
-  <script src="./script.js"></script>
+  <script type="module" src="./js/script.js"></script>
 
 
 </body>
