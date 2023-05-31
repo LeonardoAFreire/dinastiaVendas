@@ -21,13 +21,23 @@
   font-size: 1.6rem;
   font-weight: 700;
   color: #000;
-  opacity: 0.5;
+  opacity: 0.8;
   font-family: monospace;
   cursor: pointer;
+  padding: 20px;
 }
-
 .fechar:hover {
   opacity: 1;
+}
+
+.btn-fechar {
+  display: block;
+  justify-self: end;
+  font-size: 1.125rem;
+  padding: 10px;
+  border-radius: 4px;
+  color: var(--cor-0);
+  background: var(--cor-1);
 }
 
 .diariaTokio,
@@ -49,14 +59,24 @@
 }
 
 .modal {
-  background: #fff;
-  border: 1px solid #fb5;
-  min-width: 300px;
-  max-width: 600px;
-  max-height: calc(100vh - 210px);
+  background: var(--cor-0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 40px);
   border-radius: 10px;
-
   overflow-y: auto;
+}
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background-color: #707070; /* Cor do "polegar" */
+  border-radius: 4px; /* Raio do "polegar" */
+}
+
+.modal::-webkit-scrollbar-track {
+  background-color: var(--cor-2); /* Cor da área de fundo */
 }
 
 .header-modal {
@@ -64,11 +84,55 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
+}
+
+.bottom-modal {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: grid;
+  place-content: end;
 }
 
 .conteudo-modal {
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-modal h5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aviso {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.conteudo-modal p {
+  max-width: 55ch;
+}
+
+.conteudo-modal p + p {
+  margin-top: 10px;
+}
+
+.conteudo-cobertura,
+.segurado {
+  background: var(--cor-4);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  align-self: center;
+}
+
+.conteudo-cobertura h6 {
+  text-align: center;
+  margin-bottom: 8px;
 }

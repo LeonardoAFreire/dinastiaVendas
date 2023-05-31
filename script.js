@@ -3,8 +3,6 @@ const divModal = document.querySelector('.modal-container');
 const fechar = document.querySelectorAll('.fechar');
 
 modalList.forEach((modal) => {
-  console.log(modal.dataset.modal);
-
   modal.addEventListener('click', showModal);
 });
 
@@ -16,8 +14,6 @@ function showModal(event) {
 
   divModal.classList.add('ativo');
   modalAtivo.classList.add('ativo');
-
-  console.log(modalAtivo);
 }
 
 function fecharModal() {
