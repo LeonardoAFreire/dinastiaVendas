@@ -45,7 +45,22 @@
 .lista-planos li {
   display: flex;
   align-items: center;
+  position: relative;
   gap: 8px;
+  cursor: pointer;
+}
+
+.lista-planos li::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: -20px;
+  background: url(../img/svgModal.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .lista-planos img {
