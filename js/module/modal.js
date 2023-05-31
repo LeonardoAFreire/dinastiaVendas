@@ -18,8 +18,6 @@ export default function initModal() {
 
     divModal.classList.add('ativo');
     modalAtivo.classList.add('ativo');
-
-    console.log(modalAtivo);
   }
 
   function fecharModal() {
