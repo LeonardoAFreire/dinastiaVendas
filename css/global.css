@@ -3,6 +3,9 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+.no-scroll {
+  overflow: hidden;
+}
 
 html {
   scroll-behavior: smooth;
