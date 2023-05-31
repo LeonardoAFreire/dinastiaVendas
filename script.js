@@ -11,9 +11,24 @@ function showModal(event) {
   const modalAtivo = document.querySelector(classeModal);
 
   document.documentElement.classList.add('no-scroll');
-
   divModal.classList.add('ativo');
   modalAtivo.classList.add('ativo');
+
+  const linkPosition = event.target.getBoundingClientRect();
+  const linkOffsetTop = linkPosition.top + window.pageYOffset;
+
+  const modalHeight = modalAtivo.offsetHeight;
+  const windowHeight = window.innerHeight;
+
+  let modalTop;
+
+  if (linkOffsetTop + modalHeight > windowHeight) {
+    modalTop = windowHeight - modalHeight;
+  } else {
+    modalTop = linkOffsetTop;
+  }
+
+  modalAtivo.style.top = modalTop + 'px';
 }
 
 function fecharModal() {
