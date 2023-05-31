@@ -70,6 +70,7 @@
 @media (max-width: 500px) {
   .modal {
     max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 120px);
   }
 }
 .modal::-webkit-scrollbar {
