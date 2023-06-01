@@ -11,6 +11,38 @@
   font-weight: bold;
 }
 
+.lista-numerada {
+  list-style: decimal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  max-width: 55ch;
+  place-self: center;
+}
+
+.lista-numerada li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lista-alfa {
+  list-style: lower-alpha;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  max-width: 55ch;
+  place-self: center;
+}
+
+.lista-dot {
+  padding-left: 20px;
+  list-style: disc;
+  max-width: 55ch;
+  place-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
