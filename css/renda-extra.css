@@ -31,16 +31,18 @@
 
 .renda-video {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .video {
-  place-self: end;
-  padding-right: 20px;
+  place-self: center;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .video iframe {
   border-radius: 10px;
+  max-width: 100%;
 }
 
 .texto-renda-extra {
@@ -57,7 +59,7 @@
 }
 
 .btn-renda {
-  place-self: end left;
+  place-self: center;
 }
 
 @media (max-width: 600px) {
