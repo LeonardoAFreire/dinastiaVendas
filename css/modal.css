@@ -9,7 +9,7 @@
   display: none;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .modal-container.ativo {
