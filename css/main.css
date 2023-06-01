@@ -53,6 +53,10 @@
   .main-conteudo h1 {
     text-align: center;
   }
+
+  .main-conteudo p {
+    text-align: center;
+  }
   .foto-main img {
     max-height: 600px;
     margin: 0 auto;
