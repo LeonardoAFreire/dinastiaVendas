@@ -4,8 +4,6 @@ export default function initModal() {
   const fechar = document.querySelectorAll('.fechar');
 
   modalList.forEach((modal) => {
-    console.log(modal.dataset.modal);
-
     modal.addEventListener('click', showModal);
   });
 
