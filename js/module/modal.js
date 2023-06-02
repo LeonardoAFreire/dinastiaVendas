@@ -9,8 +9,9 @@ export default function initModal() {
 
   function showModal(event) {
     const classeModal = '.' + event.target.dataset.modal;
-    const modalAtivo = document.querySelector(classeModal);
 
+    const modalAtivo = document.querySelector(classeModal);
+    console.log(modalAtivo);
     document.documentElement.classList.add('no-scroll');
     document.body.classList.add('no-scroll');
 
