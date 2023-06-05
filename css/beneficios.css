@@ -38,6 +38,7 @@
 
 .container-box h3 {
   color: #0053d4;
+  display: block;
 }
 
 .container-box p {
