@@ -57,4 +57,18 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .img-celular img {
+    max-height: 350px;
+    object-fit: cover;
+  }
+
+  .container-como-funciona h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .lista-como-funciona {
+    padding-left: 20px;
+  }
 }

@@ -2,10 +2,10 @@ export default function initSwiper() {
   let swiper = new Swiper('.mySwiper', {
     centerSlide: true,
     grabCursor: true,
-    // autoplay: {
-    //   delay: 0,
-    // },
-    // speed: 3000,
+    autoplay: {
+      delay: 0,
+    },
+    speed: 3000,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
