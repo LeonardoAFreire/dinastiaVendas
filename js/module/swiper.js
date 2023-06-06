@@ -6,7 +6,7 @@ export default function initSwiper() {
     autoplay: {
       delay: 4000,
     },
-    speed: 1000,
+    speed: 2000,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -32,15 +32,13 @@ export default function initSwiper() {
   });
 
   let swiperParceiros = new Swiper('.swiperParceiros', {
-    centerSlide: true,
     grabCursor: true,
     autoplay: {
-      delay: 3000,
+      delay: 0,
     },
-    speed: 500,
+    speed: 4000,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
       dynamicBullets: true,
     },
     breakpoints: {
