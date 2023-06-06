@@ -1,5 +1,5 @@
 .bg-beneficios {
-  background: #141414;
+  background: #f9f9f9;
   padding: 40px 20px 40px 20px;
 }
 
@@ -11,13 +11,12 @@
 }
 
 .texto-beneficios span {
-  letter-spacing: 0.1px;
-  color: var(--cor-0);
+  color: var(--cor-3);
 }
 
 .texto-beneficios h2 {
   margin-top: 8px;
-  color: var(--cor-0);
+  color: var(--cor-3);
 }
 
 .container-box {
