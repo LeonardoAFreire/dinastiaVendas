@@ -58,13 +58,18 @@
     grid-template-columns: 1fr;
   }
 
+  .img-celular {
+    margin-top: 40px;
+    order: 1;
+  }
+
   .img-celular img {
-    max-height: 350px;
+    max-height: 400px;
     object-fit: cover;
+    object-position: center;
   }
 
   .container-como-funciona h2 {
-    margin-top: 20px;
     text-align: center;
   }
 
