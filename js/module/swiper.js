@@ -5,7 +5,7 @@ export default function initSwiper() {
     autoplay: {
       delay: 0,
     },
-    speed: 3000,
+    speed: 4000,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
