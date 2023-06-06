@@ -247,32 +247,32 @@
   <section class="bg-parceiros">
     <div class="parceiros container">
       <h2 class="font-1-l cor-3 bold">Empresas Parceiras</h2>
-      <ul class="lista-parceiros">
-        <li>
-          <img src="./img/nipomed.png" alt="Nipomed empresa parceira da Dinastia" height="auto" width="150">
-        </li>
-        <li>
-          <img src="./img/tokiomarine.svg" alt="Tokio Marine empresa parceira da Dinastia" height="auto" width="150">
-        </li>
-        <li>
-          <img src="./img/sulamerica.svg"
-            alt="Sul America Saude empresa parceira da Dinastia, com seguro acidentes e seguro funeral" height="auto"
-            width="150">
-        </li>
-        <li>
-          <img src="./img/myseg.png" alt="MySeg empresa parceira da Dinastia" height="auto" width="150">
-        </li>
-        <li>
-          <img src="./img/fcUni.png" alt="FcUni empresa parceira da Dinastia com cursos" height="auto" width="150">
-        </li>
-      </ul>
+
+      <!-- Swiper -->
+      <div class="swiper swiperParceiros">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-parceiros"><img src="./img/nipomed.png" alt="Parceiro da dinastia Nipomed"
+              width="150px"></div>
+          <div class="swiper-slide slide-parceiros"><img src="./img/sulamerica.svg"
+              alt="Parceiro da dinastia Sul América" width="150px"></div>
+          <div class="swiper-slide slide-parceiros"><img src="./img/tokiomarine.svg"
+              alt="Parceiro da dinastia Tokio marine" width="150px"></div>
+          <div class="swiper-slide slide-parceiros"><img src="./img/myseg.png" width="221" height="70"
+              alt="Parceiro da dinastia MySeg" width="150px"></div>
+          <div class="swiper-slide slide-parceiros"><img src="./img/fcUni.png" alt="Parceiro da dinastia FcUni"
+              width="150px"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
     </div>
   </section>
 
 
   <section class="bg-planos">
     <div class="container planos">
-      <span class="span-planos font-1-l cor-3 ">Planos</span>
+      <span class="span-planos font-1-l cor-3 ">Tenha acesso a todos os serviços e benefícios agora mesmo.</span>
       <div class="container-planos">
         <h2 class="font-2-xxl cor-0">Plano Dinastia Plus</h2>
         <p class="font-1-s cor-0 texto-planos ">Cadastramento de associados com idade entre 18 e 70 anos</p>
@@ -353,7 +353,7 @@
           <h3 class="font-1-l cor-0 bold ">MySeg</h3>
 
           <ul class="lista-planos">
-            <li class="font-1-s cor-0">Descontos e
+            <li class="font-1-s cor-0" data-modal="cashBackMySeg">Descontos e
               cashback em mais de 750 lojas</li>
           </ul>
         </div>
@@ -827,7 +827,7 @@
 
         <div class="conteudo-cobertura">
           <p class="font-1-m">
-            Os serviços de assistência pessoal a partir do 1° dia do mês subsequente. <span class="bold">Ex.
+            Os serviços de assistência estarão disponiveis a partir do 1° dia do mês subsequente. <span class="bold">Ex.
               Cadastro no dia 15/05 inicia em 1° de Junho</span>.
           </p>
         </div>
@@ -925,7 +925,7 @@
 
         <div class="conteudo-cobertura">
           <p class="font-1-m">
-            Os serviços de assistência pessoal a partir do 1° dia do mês subsequente. <span class="bold">Ex.
+            Os serviços de assistência estarão disponiveis a partir do 1° dia do mês subsequente. <span class="bold">Ex.
               Cadastro no dia 15/05 inicia em 1° de Junho</span>.
           </p>
         </div>
@@ -970,7 +970,7 @@
 
         <div class="conteudo-cobertura">
           <p class="font-1-m">
-            Os serviços de assistência pessoal a partir do 1° dia do mês subsequente. <span class="bold">Ex.
+            Os serviços de assistência estarão disponiveis a partir do 1° dia do mês subsequente. <span class="bold">Ex.
               Cadastro no dia 15/05 inicia em 1° de Junho</span>.
           </p>
         </div>
@@ -1001,7 +1001,7 @@
 
         <div class="conteudo-cobertura">
           <p class="font-1-m">
-            Os serviços de assistência pessoal a partir do 1° dia do mês subsequente. <span class="bold">Ex.
+            Os serviços de assistência estarão disponiveis a partir do 1° dia do mês subsequente. <span class="bold">Ex.
               Cadastro no dia 15/05 inicia em 1° de Junho</span>.
           </p>
         </div>
@@ -1095,8 +1095,8 @@
 
         <div class="conteudo-cobertura">
           <p class="font-1-m">
-            Os serviços de assistência pessoal a partir do 1° dia do mês subsequente. <span class="bold">Ex.
-              Cadastro no dia 15/05 inicia em 1° de Junho</span>.
+            Os serviços de assistência pessoal a partir do 1° dia do segundo mês subsequente. <span class="bold">Ex.
+              Cadastro no dia 15/05 inicia em 1° de Julho</span>.
           </p>
         </div>
 
@@ -1128,7 +1128,8 @@
         <div class="conteudo-cobertura">
           <p class="font-1-m">
           <p class="font-1-m">
-            Os serviços de assistencia pessoal a partir do 1° dia do segundo mes subsequente. <span class="bold">Ex.
+            Os serviços de assistencia estarão disponiveis a partir do 1° dia do segundo mes subsequente. <span
+              class="bold">Ex.
               Cadastro no dia 15/05 inicia em 1° de Julho</span>.
           </p>
           </p>
@@ -1317,6 +1318,83 @@
         <img src="./img/fcuni/index_04.png" alt="fcuni imagem">
         <img src="./img/fcuni/index_05.png" alt="fcuni imagem">
         <img src="./img/fcuni/index_06.png" alt="fcuni imagem">
+      </div>
+      <div class="bottom-modal">
+        <button class="fechar btn-fechar">Fechar</button>
+      </div>
+    </div>
+
+
+    <div class="cashBackMySeg modal cor-3">
+      <div class="header-modal">
+
+        <h4 class="font-1-l">
+          Aplicativo Cashback - MySeg
+        </h4>
+        <button class="fechar">x</button>
+      </div>
+      <div class="conteudo-modal">
+        <img src="img/myseg.png" alt="logo Sul america Saude" width="221" height="70" class="logo-modal">
+        <h5 class="font-1-l bold"> Cashback
+        </h5>
+        <p class="font-1-m">
+          Cashback é um sistema que permite que você receba uma parte do seu dinheiro de volta nas compras online. Ao
+          realizar sua compra através do aplicativo disponibilizado pela MySeg, você terá de volta um percentual do
+          valor pago.
+        </p>
+
+        <h5 class="font-1-l bold"> Como é calculado o valor do Cashback?
+        </h5>
+        <p class="font-1-m">
+          Através de uma plataforma gestora do sistema de Cashback (Cofry) disponibilizada através do Aplicativo MySeg,
+          os Associados poderão receber, além de descontos, um percentual em dinheiro sobre o valor das suas compras
+          online (Cashback). Ao comprar em uma loja parceira através do Aplicativo MySeg , inicia-se o processo do
+          dinheiro de volta.
+        </p>
+
+        <h5 class="font-1-l bold"> Mas como funciona o Cashback?
+        </h5>
+        <p class="font-1-m">
+          O dinheiro de volta é calculado a partir do preço final da sua compra, não incluindo o valor do frete. A
+          percentagem do Cashback varia entre as empresas participantes.
+        </p>
+
+        <h5 class="font-1-l bold"> Como iniciar a utilização do Aplicativo MySeg em meu celular?
+        </h5>
+        <p class="font-1-m">
+          Primeiramente, você precisa apenas INSTALAR o aplicativo MySeg. É muito simples. Após ter instalado o
+          aplicativo, basta abrir, acessar a página de cadastro e cadastrar sua conta corrente. Com sua conta
+          cadastrada, escolha a loja de sua preferência. Após ser direcionado para o site da loja, faça suas compras
+          normalmente.
+        </p>
+
+        <h5 class="font-1-l bold"> Quando ocorre a validação, para a liberação do dinheiro em minha conta?
+        </h5>
+        <p class="font-1-m">
+          Após a compra, seu dinheiro de volta é marcado como "PENDENTE“ em sua conta no aplicativo.
+          Quando seu saldo na conta, mudar de status, de “PENDENTE” para “CONFIRMADO” e atingir o valor mínimo de
+          resgate, hoje em R$ 30,00 (trinta reais), você poderá solicitar a transferência gratuita desse valor para a
+          sua conta bancária (consultar as regras da loja para mais informações).
+          A aprovação é executada diretamente pela loja parceira. Normalmente, o tempo de aprovação de PENDENTE para
+          CONFIRMADO não é tão longo, mas pode demorar até 90 dias ou mais dependendo do caso. Basta aguardar este
+          prazo.
+        </p>
+
+        <h5 class="font-1-l bold"> Quais os critérios para que o usuário receba o seu Cashback?
+        </h5>
+        <p class="font-1-m">
+          A aprovação ou cancelamento dos seus lançamentos (Cashback) é executada diretamente pela loja parceira, sem
+          interferência alguma da MySeg. Apenas é repassada a informação que as lojas apresentam, conforme os critérios
+          descritos abaixo:
+        </p>
+
+        <!-- <div class="conteudo-cobertura">
+          <p class="font-1-m">
+            Os serviços de assistência estarão disponiveis a partir do 1° dia do mês subsequente. <span class="bold">Ex.
+              Cadastro no dia 15/05 inicia em 1° de Junho</span>.
+          </p>
+        </div> -->
+
       </div>
       <div class="bottom-modal">
         <button class="fechar btn-fechar">Fechar</button>

@@ -59,7 +59,8 @@
 .consultaNipomed,
 .fcuni,
 .rendaDinastia,
-.personalFitness {
+.personalFitness,
+.cashBackMySeg {
   display: none;
 }
 
@@ -78,7 +79,8 @@
 .consultaNipomed.ativo,
 .fcuni.ativo,
 .rendaDinastia.ativo,
-.personalFitness.ativo {
+.personalFitness.ativo,
+.cashBackMySeg.ativo {
   display: block;
 }
 
