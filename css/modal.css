@@ -40,6 +40,9 @@
   color: var(--cor-0);
   background: var(--cor-1);
 }
+.valor-morte-acidental {
+  text-align: center;
+}
 
 .diariaTokio,
 .saudeTokio,
@@ -54,7 +57,8 @@
 .pessoalAmerica,
 .psicologicaAmerica,
 .consultaNipomed,
-.fcuni {
+.fcuni,
+.rendaDinastia {
   display: none;
 }
 
@@ -71,7 +75,8 @@
 .pessoalAmerica.ativo,
 .psicologicaAmerica.ativo,
 .consultaNipomed.ativo,
-.fcuni.ativo {
+.fcuni.ativo,
+.rendaDinastia.ativo {
   display: block;
 }
 

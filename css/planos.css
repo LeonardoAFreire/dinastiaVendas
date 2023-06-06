@@ -43,12 +43,11 @@
 }
 
 .lista-planos li {
-  display: flex;
-  align-items: center;
   position: relative;
   gap: 4px;
   padding: 4px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .lista-planos li::before {
@@ -62,6 +61,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.5s;
+}
+
+.lista-planos li:hover::before {
+  transform: rotate(180deg);
 }
 
 .lista-planos img {
