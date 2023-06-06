@@ -22,7 +22,7 @@
 }
 
 .container-planos {
-  background: #e0eafa;
+  background: radial-gradient(50% 50% at 50% 50%, #243b55 0%, #053957 100%);
   padding: 60px 70px 60px 70px;
   border-radius: 10px;
   display: flex;
@@ -48,6 +48,12 @@
   padding: 4px;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.lista-planos li:hover {
+  opacity: 1;
 }
 
 .lista-planos li::before {

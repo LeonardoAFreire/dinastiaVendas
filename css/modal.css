@@ -58,7 +58,8 @@
 .psicologicaAmerica,
 .consultaNipomed,
 .fcuni,
-.rendaDinastia {
+.rendaDinastia,
+.personalFitness {
   display: none;
 }
 
@@ -76,7 +77,8 @@
 .psicologicaAmerica.ativo,
 .consultaNipomed.ativo,
 .fcuni.ativo,
-.rendaDinastia.ativo {
+.rendaDinastia.ativo,
+.personalFitness.ativo {
   display: block;
 }
 
