@@ -58,7 +58,7 @@
 }
 
 .email::before {
-  background-image: url('../../img/email.svg');
+  background-image: url('../img/email.svg');
 }
 
 .telefone::before {
@@ -121,11 +121,5 @@
 
   .info-contato {
     padding-right: 0px;
-  }
-}
-
-@media (max-width: 500px) {
-  .bg-contato {
-    background-attachment: initial;
   }
 }
