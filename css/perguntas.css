@@ -1,5 +1,6 @@
 .bg-perguntas {
   padding: 40px 20px 40px 20px;
+  background: var(--cor-0);
 }
 
 .perguntas h2 {

@@ -1,0 +1,120 @@
+.contato {
+  padding: 40px 20px 40px 20px;
+}
+
+.info-contato li + li {
+  margin-top: 10px;
+}
+
+.info-contato {
+  padding-right: 10px;
+}
+
+.lista-endereco::after,
+.lista-contato::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 12px;
+  background: #243b55;
+}
+
+.lista-endereco {
+  margin-top: 20px;
+}
+
+.lista-contato {
+  margin-top: 20px;
+}
+
+.lista-contato li a {
+  transition: 0.3s;
+  margin-left: 4px;
+}
+
+.lista-contato li a:hover {
+  text-decoration: underline;
+}
+
+.whats,
+.email,
+.telefone {
+  display: flex;
+  align-items: center;
+}
+
+.whats::before,
+.telefone::before,
+.email::before {
+  content: '';
+  background-image: url('../../img/whatsapp-icon.svg');
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.email::before {
+  background-image: url('../../img/email.svg');
+}
+
+.telefone::before {
+  background-image: url('../../img/telefone.svg');
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lista-redes {
+  display: flex;
+  margin-top: 20px;
+  gap: 32px;
+  align-items: center;
+}
+
+.mapa-contato {
+  height: 100%;
+}
+
+.bg-footer {
+  background: var(--cor-0);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  color: var(--cor-3);
+}
+
+@media (max-width: 960px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+
+  .mapa-contato {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+  }
+
+  .lista-redes {
+    justify-content: space-around;
+  }
+
+  .info-contato {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bg-contato {
+    background-attachment: initial;
+  }
+}
