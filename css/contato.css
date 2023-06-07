@@ -42,6 +42,7 @@
 .telefone {
   display: flex;
   align-items: center;
+  gap: 4px;
 }
 
 .whats::before,
@@ -81,7 +82,17 @@
 }
 
 .bg-footer {
-  background: var(--cor-0);
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .footer {
@@ -90,7 +101,7 @@
 }
 
 .footer p {
-  color: var(--cor-3);
+  color: var(--cor-2);
 }
 
 @media (max-width: 960px) {
