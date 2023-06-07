@@ -55,6 +55,10 @@
   margin-bottom: 10px;
 }
 
+.lista-dot li + li {
+  margin-top: 8px;
+}
+
 html {
   scroll-behavior: smooth;
 }
