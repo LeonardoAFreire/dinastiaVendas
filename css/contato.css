@@ -61,9 +61,10 @@
   background-image: url('../img/email.svg');
 }
 
+/* 
 .telefone::before {
   background-image: url('../../img/telefone.svg');
-}
+} */
 
 .contato {
   display: grid;
