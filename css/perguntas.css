@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 9fr 1fr;
   background: var(--cor-4);
-  padding: 12px 24px;
+  padding: 12px;
   color: var(--cor-1);
   border-radius: 10px;
 }
