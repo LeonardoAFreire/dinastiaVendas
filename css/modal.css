@@ -186,6 +186,21 @@
   margin-bottom: 8px;
 }
 
+.link-renda {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #46668a;
+  border-radius: 4px;
+  color: var(--cor-2);
+  padding: 8px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.link-renda:hover {
+  background: var(--cor-1);
+}
+
 @media (max-width: 500px) {
   .modal {
     max-width: calc(100vw - 20px);
