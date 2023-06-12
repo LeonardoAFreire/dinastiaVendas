@@ -15,9 +15,9 @@
   margin-bottom: 12px;
   display: grid;
   grid-template-columns: 9fr 1fr;
-  background: var(--cor-4);
+  background: var(--cor-1);
   padding: 12px;
-  color: var(--cor-1);
+  color: var(--cor-0);
   border-radius: 10px;
 }
 
