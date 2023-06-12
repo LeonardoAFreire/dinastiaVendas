@@ -57,8 +57,9 @@ export default function initSwiper() {
 
       // when window width is >= 1200px
       1200: {
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween: 20,
+        loop: true,
       },
     },
   });
