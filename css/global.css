@@ -38,12 +38,20 @@
 }
 
 .lista-alfa {
-  list-style: lower-alpha;
-  margin-top: 10px;
+  list-style: upper-alpha;
+  margin-top: 20px;
   margin-bottom: 10px;
   padding-left: 20px;
   max-width: 55ch;
   place-self: center;
+}
+
+.aviso-plano {
+  margin-top: 4px;
+}
+
+.lista-alfa li + li {
+  margin-top: 10px;
 }
 
 .lista-dot {

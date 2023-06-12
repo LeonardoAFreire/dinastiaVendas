@@ -34,17 +34,6 @@
   grid-template-columns: 1fr;
 }
 
-.video {
-  place-self: center;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.video iframe {
-  border-radius: 10px;
-  max-width: 100%;
-}
-
 .texto-renda-extra {
   display: grid;
 }
@@ -59,7 +48,8 @@
 }
 
 .btn-renda {
-  place-self: center;
+  justify-self: center;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
