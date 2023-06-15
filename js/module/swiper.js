@@ -33,15 +33,13 @@ export default function initSwiper() {
   });
 
   let swiperParceiros = new Swiper('.swiperParceiros', {
-    grabCursor: true,
     autoplay: {
       delay: 1,
       disableOnInteraction: false,
     },
-    speed: 5000,
+    speed: 6000,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
       dynamicBullets: true,
     },
     breakpoints: {
