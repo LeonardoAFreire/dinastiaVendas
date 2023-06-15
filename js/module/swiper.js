@@ -5,6 +5,7 @@ export default function initSwiper() {
     loop: true,
     autoplay: {
       delay: 4000,
+      disableOnInteraction: false,
     },
     speed: 2000,
     pagination: {
@@ -34,9 +35,10 @@ export default function initSwiper() {
   let swiperParceiros = new Swiper('.swiperParceiros', {
     grabCursor: true,
     autoplay: {
-      delay: 0,
+      delay: 1,
+      disableOnInteraction: false,
     },
-    speed: 4000,
+    speed: 5000,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

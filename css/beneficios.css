@@ -10,6 +10,10 @@
   padding-bottom: 40px;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
 .texto-beneficios span {
   color: var(--cor-3);
 }
